@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-e2e/
+*.log
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+storageState*.json
+cookies*.json
+playwright/.auth/

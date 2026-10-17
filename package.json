@@ -1,0 +1,21 @@
+{
+  "name": "faded-hours-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first Chrome extension that plans an album and drives Flow Music sessions, downloads and playlist placement.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:e2e": "node scripts/build.mjs --e2e",
+    "watch": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "esbuild": "^0.24.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
